@@ -34,3 +34,7 @@ h2{
 ol li{
     list-style: none;
 }
+
+img{
+    width: 350px;
+}

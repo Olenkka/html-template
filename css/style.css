@@ -1,40 +1,4 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
-    background-color: rgb(219, 210, 199);
+    background-color: rgb(223, 211, 211);
 }
-h1{
-    font-size: 45px;
-    color: rgb(31, 30, 30);
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-}
-
-.text{
-    font-size: 20px;
-}
-
-.images{
-    display: flex;
-    justify-content: space-evenly;
-
-    margin:  15px 0;
-}
-
-.list-1 , .list-2 {
-    font-size: 19px;
-    font-weight: 500;
-}
-
-ol li{
-    list-style: none;
-}
-
-img{
-    width: 350px;
 }

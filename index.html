@@ -7,245 +7,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-
-    <header class="header">
-
-        <nav class="header__nav">
-            <a class="header__logo" href="#">
-                <img src="./img/logo.png" alt="Logo">
-            </a>
-
-            <div class="header__menu">
-                <a href="#">Menu</a>
-                <a href="#">Our story</a>
-                <a href="#">Our breads</a>
-                <a href="#">Catering</a>
-                <a href="#">Recipies</a>
-                <a href="#">Careers</a>
-                <a href="#">Location</a>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <img class="header__logo" src="img/logo.svg" alt="logo">
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">About club</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Facilities</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Top players</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Pricing plans</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Events</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="hrader__contacts-btn">
-                <button>Contacts</button>
-            </div>
-        </nav>
-
-        <div class="header__banner">
-            <h1 class="header__title">
-                We Are an Artisan Bakery
-            </h1>
-            <p class="header__text">
-                We are based in Bermondsey and supply independent cafes and restaurants across London.
-            </p>
-            <p class="header__slogan">
-                Fresh-baked. Everyday.
-            </p>
-        </div>
+    </div>
     </header>
 
-    <main>
-        <section class="handcraft">
-            <h3 class="handcraft__title">
-                Handcrafted
-            </h3>
-            <p class="handcraft__text">
-                WarmBread is the finest bakery in London known for its natural handcrafted breads.
-                We adhere to the highest quality standards while creating our food products so that
-                each one brings delight to both your eye and tongue. Our menu regularly changes
-                featuring seasonal meals carefully cooked by our exceptionally creative chefs.
-            </p>
-        </section>
-
-        <section class="bread">
-            <h3 class="bread__title">
-                Featured Breads
-            </h3>
-            <div class="bread__courusel">
-                <div class="bread__types">
-                    <img width="300" src="./img/bread_types1.jpeg" alt="Bread">
-                    <p class="bread__name">
-                        Quinoa Sourdough
-                    </p>
-                    <p class="bread_description">
-                        Handmade from quinoa, soybeans, and soy flour, this kind of bread
-                        contains more protein than many others, and its mild taste makes
-                        it ideal to taste with salted butter.
-                    </p>
-                </div>
-
-                <div class="bread__types">
-                    <img width="300" src="./img/bread_types2.jpeg" alt="Bread">
-                    <p class="bread__name">
-                        Danish Sourdough
-                    </p>
-                    <p class="bread_description">
-                        This popular full of texture and flavor Danish bread is healthy,
-                        tasty, and can be preserved for a long time. By tradition, it
-                        is served with cold butter, meat, fish, or cheese.
-                    </p>
-                </div>
-
-                <div class="bread__types">
-                    <img width="300" src="./img/bread_types3.jpeg" alt="Bread">
-                    <p class="bread__name">
-
-                    </p>
-                    <p class="bread_description">
-                        Being a classic seasonal centerpiece, this nutritious bread is
-                        charged with cranberries and pecans. It can be perfectly combined
-                        with cooked meat or cheese.
-                    </p>
-                </div>
-
-                <div class="bread__types">
-                    <img width="300" src="./img/bread_types4.jpeg" alt="Bread">
-                    <p class="bread__name">
-                        Hove Wholemeal
-                    </p>
-                    <p class="bread_description">
-                        This Hove inspired vegan wholemeal loaf is made from such organic
-                        ingredients as wholemeal wheat flour, oats, salt, and olive oil.
-                        It is ideal to create healthy sandwiches.
-                    </p>
+    <main class="main">
+        <section class="page__main-block main-block">
+            <div class="main-block__container container">
+                <h1 class="main-blick__title">California Golf Club</h1>
+                <div class="main-block__text">A peaceful place where you'll become a better player.</div>
+                <div class="main-block__buttons">
+                    <a href="" class="main-block__button">Join our club</a>
+                    <a href="" class="main-block__button btn-2">About us</a>
                 </div>
             </div>
+            <!-- <div class="main-block__cover">
+                       <img src="img/main_img.png" alt="">
+                   </div> -->
         </section>
 
-        <section class="menu">
-            <h2 class="menu__our-menu">
-                Our Menu
-            </h2>
-
-            <p class="menu__choose-meal">
-                Take a look at our menu and choose your meal or order it right from our bakery
-            </p>
-
-            <div class="menu__nav">
-                <a href="#">Breads</a>
-                <a href="#">Breakfest</a>
-                <a href="#">Lunch & Dinner</a>
-            </div>
-        </section>
-
-        <section class="about">
-            <h2 class="about__title">
-                About Us
-            </h2>
-            <p class="about__subtitle subtitle">
-                WarmBread Bakery proudly specializes in a uniquely handcrafted bread that
-                is equal parts healthy and organic. Our bread is made of premium ingredients
-                and fresh seasonal flavors packed with: spinach, carrots, berries, seeds,
-                nuts, and other healthy goods. WarmBread Bakery products are rich in protein,
-                oils, nuts, and fibers that will keep you satisfied, healthy, and happy
-                throughout the day.
-            </p>
-            <div class="about__photos">
-                <img width="300" src="./img/about_1.jpeg" alt="Honey">
-                <img width="300" src="./img/about_2.jpeg" alt="Bread">
-                <img width="300" src="./img/about_3.jpeg" alt="Honey">
-            </div>
-            <a class="about__read-more" href="#">Read more about us</a>
-        </section>
-
-        <section class="recipes">
-            <h2 class="recipes__title">
-                Recipes Using Our Breads
-            </h2>
-
-            <div class="recipes__list-left">
-                <div class="recipes__item">
-                    <img width="300" class="recipes__img" src="./img/man_holding_bread.jpeg" alt="Man">
-                    <p class="recipes__name">
-                        Healthy Sandwiches
-                    </p>
-                    <div class="recipes__time-prep">
-                        <img width="20" class="recipes__img-clock" src="./img/clock.png" alt="clock">
-                        <span class="recipes-time">3 min preparation</span>
+        <section class="page__services services">
+            <div class="services__container container">
+                <div class="services__body">
+                    <div class="services__column">
+                        <div class="services__item item-service">
+                            <div class="item-service__icon">
+                                <img src="img/main-block-1svg.svg" alt="card-1">
+                            </div>
+                            <h2 style="color: rgb(53, 52, 52); font-size: 28px; font-weight: 500;"
+                                class="item-service__title"> Clubhouse</h2>
+                            <div class="item-service__text"> Nutritious meals, bathrooms, and rooms for conversations
+                                for our members. </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-           
-            <div class="recipes__list-right">
-                <div class="recipes__item">
-                    <img width="300" class="recipes__img right" src="./img/recipes2.jpeg" alt="Man">
-                    <p class="recipes__name">
-                        Honey Roll-Ups
-                    </p>
-                    <div class="recipes__time-prep">
-                        <img width="20" class="recipes__img-clock" src="./img/clock.png" alt="clock">
-                        <span class="recipes-time">10 min preparation</span>
+                    <div class="services__column">
+                        <div class="services__item item-service">
+                            <div class="item-service__icon">
+                                <img src="img/main-blok-2.svg" alt="card-1">
+                            </div>
+                            <h2 style="color: rgb(53, 52, 52); font-size: 28px; font-weight: 500;"
+                                class="item-service__title"> Golf Academy </h2>
+                            <div class="item-service__text"> Our golf academy is opened for all our members and also for
+                                children </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="recipes__list-right">
-                    <div class="recipes__item">
-                        <img width="300" class="recipes__img right" src="./img/recipes_pizza.jpeg" alt="Man">
-                        <p class="recipes__name">
-                            Pizza Bagels
-                        </p>
-                        <div class="recipes__time-prep">
-                            <img width="20" class="recipes__img-clock" src="./img/clock.png" alt="clock">
-                            <span class="recipes-time">20 min preparation</span>
+                    <div class="services__column">
+                        <div class="services__item item-service">
+                            <div class="item-service__icon">
+                                <img src="img/main-blok-3.svg" alt="card-1">
+                            </div>
+                            <h2 style="color: rgb(53, 52, 52); font-size: 28px; font-weight: 500;"
+                                class="item-service__title"> Gear & Apparel</h2>
+                            <div class="item-service__text"> Club membership gives automatic access to all the training
+                                gear. </div>
+                        </div>
+                    </div>
+                    <div class="services__column">
+                        <div class="services__item item-service">
+                            <div class="item-service__icon">
+                                <img src="img/main-blok-4.svg" alt="card-1">
+                            </div>
+                            <h2 style="color: rgb(53, 52, 52); font-size: 28px; font-weight: 500;"
+                                class="item-service__title"> Tournament</h2>
+                            <div class="item-service__text"> The 117th South of Amateur Open Championship is just one of
+                                many tourneys.</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="recipes-link" href="#">BROWSE ALL RECIPES</a>
-
         </section>
 
     </main>
 
-
     <footer class="footer">
-        <div class="footer_email-info">
-            <div class="footer__get-email">
-                Join Our Newsletter Now
-            </div>
-            <div class="footer__learn-more">
-                Learn more about bread and our special offers with our weekly digests.
-            </div>
-        </div>
-
-        <div class="footer_email">
-            <div class="footer__email-form">
-                <input type="text" placeholder="Enter your email address here">
-            </div>
-            <div class="footer__email-btn">
-                <button class="footer__btn">Submit </button>
-            </div>
-        </div>
-
-        <div class="footer__logo">
-            <img class="footer__logo-img" src="./img/logo.png" alt="logo">
-            <p class="footer__follow-us">
-                Follow Us
-            </p>
-        </div>
-
-        <div class="footer__working-time">
-            <p class="footer__hours">
-                Mon-Sat: 8am-6pm <br>
-                Sun: 8am-4pm
-            </p>
-            <div class="footer__social-media">
-                <a href="#">
-                    <img src="./img/icons8-instagram.svg" alt="Inst">
-                </a>
-                <a href="#">
-                    <img src="./img/icons8-facebook.svg" alt="Facebook">
-                </a>
-                <a href="#">
-                    <img src="./img/icons8-twitter.svg" alt="Twitter">
-                </a>
-            </div>
-        </div>
-
+        <div>Footer</div>
     </footer>
+    </div>
 
 </body>
 

@@ -275,4 +275,358 @@ html{
     color: rgb(78, 77, 77);
 }
 
+/*------------------------MAIN Facilities-----------------------------*/
+
+.facilitie {
+    padding: 40px 0;
+}
+
+.facilitie__header {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.header-block__facilitie {
+    font-size: 20px;
+    color: rgb(189, 170, 63);
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.header-block__title {
+    font-size: 60px;
+    color: rgb(19, 74, 86);
+    padding-bottom: 25px;
+}
+
+@media (max-width: 700px) {
+    .header-block__title{
+        font-size: 35px;  
+    }
+}
+
+.header-block__sub-title {
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(19, 74, 86);
+}
+
+@media (max-width: 700px) {
+    .header-block__sub-title{
+        font-size: 16px;  
+    }
+}
+
+.facilitie__body {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.facilitie__column {
+    padding: 0 15px;
+    flex: 0 1 25%;
+}
+
+@media (max-width: 600px) {
+    .facilitie__column{
+        flex: 0 1 50%;
+    }
+}
+
+.facilitie__item {
+    text-align: center;
+    padding: 10px 25px;
+    line-height: 140%;
+}
+
+.facilitie__icon {
+  padding: 0 0 15px 0;
+  justify-content: center;
+  display: flex;
+  width: 50px;
+}
+
+
+.facilitie__value {
+    font-size: 34px;  
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .facilitie__value{
+        font-size: 26px;  
+    }
+}
+
+.facilitie__text {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .facilitie__text{
+        font-size: 16px;  
+    }
+}
+
+
+
+/*------------------------MAIN SECOND PART---------------------------*/
+.about__us {
+    padding: 30px 0;
+}
+
+.about__inner {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+@media (max-width: 1000px) {
+    .about__inner{
+        flex-wrap: wrap;  
+    }
+    .about__content{
+        min-width: 100%;
+    }
+    .about__img{
+        min-width: 100% ;
+    }
+    .about__text {
+        padding-right: 20px;
+        text-align: left;
+    }
+    .about__title {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:442px) {
+    .about__title{
+        font-size: 35px;
+    }
+}
+
+.about__img {
+    width: 585px;
+    object-fit: cover;
+}
+
+ .about__content{
+   flex-basis: 585px;
+    margin-left: 30px;
+}
+
+.about__about-us {
+    margin:12px 0 25px 0;
+    font-size: 14px;
+    color: rgb(212, 195, 96);
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: left;
+    overflow-wrap: wrap;
+    color: rgb(19, 74, 86);
+    margin-bottom: 25px;
+}
+
+.about__sub-title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 31.5px;
+    margin-bottom: 25px;
+}
+
+.about__text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.about__btn {
+    background-color: rgb(19, 74, 86);
+    font-style: 28px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border: none;
+    color: white;
+}
+/*-------------------------MAIN SECTION 3------------------------------*/
+
+.club__list {
+    display: flex;
+}
+
+/*------------------------CONTACTS-------------------------------*/
+.contacts {
+    background-color: rgb(19, 74, 86);
+    padding: 90px 0;
+    margin-top: 60px;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__info {
+   padding-right: 30px;
+}
+
+.contact {
+    margin:0 0 20px 0;
+    font-size: 14px;
+    color: rgb(212, 195, 96);
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts__title {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 35px;
+}
+
+.contscts__sub-title {
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+    /* line-height: 31.5; */
+    margin-bottom: 35px;
+}
+ 
+
+.contacts__form{
+    flex-wrap: wrap;
+    background-color:rgb(41, 98, 110); 
+    justify-content: center;
+    text-align: center;
+} 
+
+.form__booking {
+    margin: 70px 0 20px;
+    font-size: 14px;
+    color: rgb(212, 195, 96);
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form__title {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form__sub-title {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.contacts__item-title{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36.4px;
+    margin: 0 0 10px 40px;
+}
+
+.contacts__item-sub-title{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    margin:0 0 25px 40px;
+}
+
+.contacts__item-tel{
+    color: white;
+font-size: 16px;
+font-weight: 400;
+margin: 0 0 0px 40px;
+}
+
+.contacts__item-email{
+color: white;
+font-size: 16px;
+font-weight: 400;
+margin:  10px 0 40px 40px;
+}
+
+@media (max-width: 1150px){
+    .contacts__map{
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1000px){
+    .contacts__map{
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 850px){
+    .contacts__map{
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 820px){
+    .contacts__inner {
+       flex-wrap: wrap;
+    }
+    .contacts__map{
+        max-width: 100%;
+        align-items: center;
+    }
+    .contacts__info{
+        text-align: center;
+    }
+}
+
+.form__name {
+ background-color:rgba(94, 130, 139, 0.555);
+ border: none;
+ padding: 15px 160px 15px 15px;
+ margin-bottom: 20px;
+ color: white;
+ font-size: 18px;
+}
+
+.form__name::placeholder{
+    font-size: 16px;
+    color: rgba(240, 248, 255, 0.562);
+}
+
+.form__btn {
+    padding: 15px 172px;
+    background-color:  rgb(206, 188, 88);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 0 70px;
+}
+
+.form__btn:hover{
+   background-color: rgb(177, 159, 60);
+}
+
 
